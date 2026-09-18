@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: >-
+  If you use this repository in research, please cite it using these
+  metadata and identify the release version or commit used.
+type: software
+title: "Homogeneous varieties and vector bundles"
+version: "0.1.0"
+authors:
+  - family-names: Kapustka
+    given-names: Michał
+  - family-names: Rampazzo
+    given-names: Marco
+  - family-names: Samal
+    given-names: Prajwal
+repository-code: "https://github.com/marcorampazzo/homogeneous-varieties"
+url: "https://github.com/marcorampazzo/homogeneous-varieties"
+keywords:
+  - algebraic geometry
+  - homogeneous varieties
+  - homogeneous vector bundles
+  - representation theory
+  - Borel-Weil-Bott

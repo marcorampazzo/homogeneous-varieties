@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "homogeneous-varieties"
+version = "0.1.0"
+description = "Exact calculations with homogeneous varieties and vector bundles"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Michał Kapustka"},
+    {name = "Marco Rampazzo"},
+    {name = "Prajwal Samal"},
+]
+dependencies = []
+keywords = [
+    "algebraic geometry",
+    "homogeneous varieties",
+    "representation theory",
+    "Borel-Weil-Bott",
+]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+
+[project.urls]
+Repository = "https://github.com/marcorampazzo/homogeneous-varieties"
+Documentation = "https://github.com/marcorampazzo/homogeneous-varieties#readme"
+
+[tool.setuptools]
+packages = []
+py-modules = [
+    "abstract",
+    "bott",
+    "grassmannians",
+    "hodge",
+    "mutations",
+    "plethysms",
+    "root_systems",
+    "utils",
+    "varieties",
+]
+include-package-data = false
